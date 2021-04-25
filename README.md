@@ -26,12 +26,12 @@ but in this case, although the size of code is larger, TCP can deliver an entire
 implementation may also be easier to port as it is more widely used.
 
 ## Features and Non-Features
-  • Splits the words in the tweet ignoring punctuation. However, this means that all punctuation is lost and contractions such as “don’t” will be considered two words “don” and “t”
-  • Not multi-threaded which means only one client can connect
-  • Dictionaries are lost after the server goes down
-  • Only one hash scheme can be selected per session
-  • All three hash schemes are implemented; you can choose one at the beginning of the server’s life
-  • Client can send encoded or plain text messages to the server and receive an appropriate response
+  * Splits the words in the tweet ignoring punctuation. However, this means that all punctuation is lost and contractions such as “don’t” will be considered two words “don” and “t”
+  * Not multi-threaded which means only one client can connect
+  * Dictionaries are lost after the server goes down
+  * Only one hash scheme can be selected per session
+  * All three hash schemes are implemented; you can choose one at the beginning of the server’s life
+  * Client can send encoded or plain text messages to the server and receive an appropriate response
 
 ## Testing
 Testing was done on the university campus computers in the Math Sciences computer lab on a single
